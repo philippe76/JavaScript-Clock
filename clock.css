@@ -9,23 +9,32 @@ body {
 .clock {
   height: 25rem;
   width: 25rem;
-  background-color: rgb(75, 72, 72);
-  border: 1rem solid white;
+  background-color: #f9ca24;
+  border: 1rem solid #eb4d4b;
   border-radius: 100%;
-  /* position: relative;
-  transform: translateY(-3px); */
+  position: relative;
 }
 
 .hour,
 .minute,
 .second {
   height: 0.5rem;
-  width: 12rem;
+  width: 11rem;
   background-color: black;
   position: absolute;
   top: 50%;
+  left: 7%;
   transform-origin: 100%;
-  transform: rotate(20deg);
+  transform: rotate(90deg);
   transition: all 0.5s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour {
+  width: 6rem;
+  left: 27%;
+}
+
+.second {
+  background-color: white;
 }
