@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(75, 72, 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock {
+  height: 25rem;
+  width: 25rem;
+  background-color: rgb(75, 72, 72);
+  border: 1rem solid white;
+  border-radius: 100%;
+}
