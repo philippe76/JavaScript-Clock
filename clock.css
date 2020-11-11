@@ -13,3 +13,14 @@ body {
   border: 1rem solid white;
   border-radius: 100%;
 }
+
+.hour,
+.minute,
+.second {
+  height: 0.5rem;
+  width: 12rem;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
