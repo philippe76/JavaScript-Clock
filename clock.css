@@ -21,10 +21,10 @@ body {
   height: 0.5rem;
   width: 11rem;
   background-color: black;
-
   position: absolute;
   top: 50%;
   left: 7%;
+  transition: all 0.2s;
   transform-origin: 100%;
   transform: rotate(90deg);
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
@@ -40,4 +40,8 @@ body {
   border: 1px solid black;
   border-radius: 40%;
   height: 0.1rem;
+}
+
+.no-transition {
+  transition: none;
 }
