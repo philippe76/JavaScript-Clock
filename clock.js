@@ -35,3 +35,10 @@ const secondRunning = () => {
 
 setInterval(secondRunning, 1000)
 
+
+// Get dynamic date for Footer
+document.getElementById('date').innerHTML = new Date().getFullYear()
+                
+                
+                
+                

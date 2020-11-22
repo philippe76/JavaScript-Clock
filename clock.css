@@ -10,7 +10,6 @@ header {
   position: fixed;
   top: 0;
   margin-top: 6rem;
-  color: #eb4d4b;
   color: #fcd856;
   font-size: 1.8rem;
   text-shadow: 2px 1px 3px #eb4d4b;
@@ -56,4 +55,17 @@ header {
 
 .no-transition {
   transition: none;
+}
+
+/* FOOTER */
+footer {
+  height: 2.5rem;
+  position: fixed;
+  bottom: 0;
+  right: 2rem;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #f5e3a3;
 }
