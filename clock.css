@@ -6,6 +6,17 @@ body {
   height: 100vh;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  margin-top: 6rem;
+  color: #eb4d4b;
+  color: #fcd856;
+  font-size: 1.8rem;
+  text-shadow: 2px 1px 3px #eb4d4b;
+  letter-spacing: 2px;
+}
+
 .clock {
   height: 25rem;
   width: 25rem;
@@ -13,6 +24,7 @@ body {
   border: 1rem solid #eb4d4b;
   border-radius: 100%;
   position: relative;
+  top: 7%;
 }
 
 .hour,
