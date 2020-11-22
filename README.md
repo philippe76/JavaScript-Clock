@@ -10,6 +10,4 @@ Get idea from **Wes Bos - [JavaScript30](https://javascript30.com/)**
 
 <br />
 
-<p align="center">
 <img src="js-clock.PNG" height="350px" width="350px">
-</p>
